@@ -12,6 +12,9 @@
 @import "kids";
 
 
+// -- Calculator --
+@import "calculator";
+
 @function weight($weight-name) {
   @return map-get($font-weights, $weight-name);
 }

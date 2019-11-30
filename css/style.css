@@ -227,6 +227,8 @@
   background: #443E7C;
   width: 30%;
   opacity: 0.8;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .educators__info img:hover {
@@ -551,6 +553,12 @@
           box-shadow: none;
 }
 
+.ohmslaw #label-1 {
+  font-size: 1.5em;
+  margin-left: 9em;
+  text-transform: uppercase;
+}
+
 .circuit {
   background: url(../img/finalOffBulb.png);
   height: 600px;
@@ -614,6 +622,57 @@
 
 .eggGame .eggGame__info p {
   text-align: left;
+}
+
+label {
+  position: relative;
+  font-size: 1.5em;
+  left: -7em;
+  color: #fff;
+  font-family: 'Acme', sans-serif;
+}
+
+.form-control--style {
+  padding: 1.2em 0;
+  text-align: center;
+  font-size: 1.2em;
+  border-radius: 1em;
+  font-weight: 600;
+  font-family: 'Acme', sans-serif;
+  width: 44%;
+}
+
+.form-control--style:focus {
+  border: 2px solid #01994b;
+}
+
+.formulae_calculator {
+  margin: 8em 0;
+}
+
+.click-me-button-0, .click-me-button-1 {
+  border-radius: 35px;
+  background: #fff;
+  border: 2px solid #fff;
+  color: #443E7C;
+  font-size: 2rem;
+  font-weight: weight(medium);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  padding: 0.5em 1.5em;
+  margin-left: -17em;
+  font-family: 'Acme', sans-serif;
+}
+
+.forumlae__img img {
+  width: 104%;
+  margin: 5em 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.forumlae__img img:hover {
+  opacity: 0.8;
 }
 
 h1,

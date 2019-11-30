@@ -1,12 +1,5 @@
 
 
-
-
-
-
-
-
-
 /* *************************** 
 ******** Activities ******** */
 
@@ -190,6 +183,7 @@
       background: $primary-color;
       width: 30%;
       opacity: 0.8;
+      @include transition-ease
       &:hover {
         opacity: 0.5;
       }

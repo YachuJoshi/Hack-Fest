@@ -28,6 +28,7 @@
 
   &__experiment {
       padding: 6em 0;
+      
     .ohmslaw__wallpaper img {
         width: 70%;
         @include transition-ease;
@@ -73,6 +74,11 @@
           }
     
       }
+  }
+  #label-1{
+    font-size: 1.5em;
+    margin-left: 9em;
+    text-transform: uppercase;
   }
  
 }

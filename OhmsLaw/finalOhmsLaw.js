@@ -29,8 +29,8 @@ function carryOutCalculation() {
     } else if(currentValue === 0)
         toCalcValues.resistanceValue = Infinity;
     changeBulb(powerStatus(toCalcValues.powerValue, ratedPower));
-    document.getElementById('resistance').value = `${toCalcValues.resistanceValue} Ohm` ;
-    document.getElementById('power').value = `${toCalcValues.powerValue} Watt`;
+    document.getElementById('resistance').value = `${toCalcValues.resistanceValue}` ;
+    document.getElementById('power').value = `${toCalcValues.powerValue}`;
     displayLineChart();
 }
 
